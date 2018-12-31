@@ -1,3 +1,6 @@
 # ML-Support-Vector-Machine-SVM-
 
 This project gave me experience and practice with Support Vector Machines, and my first time automating the parameter search to optimize the model that I used. The dataset is a csv file that has multiple variables that are continuos number values and the output variable is whether the cancer was benign or malignant. I also got to try out more built in functions to speed up my work such as using train_test_split to easily split the data up into training and test sets by whatever fraction i decided. I also learned how to use cross validation score to check that my model isn't too overfitted to my data. This overfitting is necessary because I wouldn't say this data set is too large, and so the training set and test set could be slightly different and would be affected by overfitting of the model.
+The models are randomly created each time the script is ran and thus the accuracy of the model fluctuates each time it is run, but typically I get values around 0.88-0.92 +/- 0.03. 
+
+Thus from the values I stated above I believe that this model could be somewhat useful to give initial alerts for the type of cancer and more data or tuning of the parameters would give a greater accuracy.
